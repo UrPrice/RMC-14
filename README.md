@@ -1,35 +1,44 @@
-<p align="center"> <img alt="Space Station 14" width="400" height="400" src="https://github.com/user-attachments/assets/320ad459-8997-4e5b-9f7e-fc7e7d7dcb73" /></p>
+<p align="center"> <img alt="Space Station 14" width="350" height="350" src="https://raw.githubusercontent.com/SerbiaStrong-220/space-station-14/master/logo.png" /></p>
 
-RMC-14 is an asymmetric game, that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox). It is inspired by [CMSS13](https://github.com/cmss13-devs/cmss13), [Space Station 13](https://spacestation13.com/).
+<p align="center">
+<img alt="forthebadge | It works. Why?" src="https://raw.githubusercontent.com/SerbiaStrong-220/ss220-docs/master/res/ftb/it-works-why.svg" />
+<img alt="forthebadge | Fuck it. Ship it." src="https://raw.githubusercontent.com/SerbiaStrong-220/ss220-docs/master/res/ftb/fuck-it-ship-it.svg" />
+<img alt="forthebadge | Not a bug. A feature." src="https://raw.githubusercontent.com/SerbiaStrong-220/ss220-docs/master/res/ftb/not-a-bug-a-feature.svg" />
+<img alt="forthebadge | Gluten free." src="https://raw.githubusercontent.com/SerbiaStrong-220/ss220-docs/master/res/ftb/gluten-free.svg" />
+</p>
 
-This is the primary repo for RMC-14. To prevent people forking Robust Toolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+RMC-14 это ремейк TGMC13, который работает на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-If you want to host or create content for RMC-14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+Это репозиторий исходного кода билда русскоязычного сервера **SS220**, основанном на билде [проекта RMC-14](https://github.com/RMC-14/RMC-14). Данный репозиторий позволяет игрокам проекта оказывать помощь в тестировании и разработке билда. **Наши изменения в коде распространяются под CLA, ограничивающим хостинг.**
 
-## Links
+## Ссылки
 
-[RMC-14 Community Wiki](https://wiki.rouny-ss14.com/) | [Discord](https://discord.gg/rouny) | [SS14 Steam Launcher](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Launcher Download](https://spacestation14.io/about/nightlies/)
+[Наш Discord](https://discord.gg/ss220) | [Наша Вики](https://wiki14.ss220.club) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/RMC-14/RMC-14)
 
-## Contributing
+## Лицензия
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/RMC-14/RMC-14/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+Код репозитория лицензирован как под [MIT](https://github.com/space-syndicate/space-station-14/blob/master/LICENSE.TXT) - это касается кода [Space Wizards Federation](https://github.com/space-wizards/space-station-14), так и под [CLA](https://github.com/SerbiaStrong-220/RMC-14/blob/master/CLA.txt) - это касается наших изменений, определение которых дано в тексте CLA. Мы не стремимся к полному разграничению нашего кода и кода выше указанных проектов, поэтому во избежание инцидентов рекомендуется брать их код из их репозиториев.
 
-## Building
+Мы в полной мере используем наше право на сублицензирование.
 
-1. Clone this repo.
-2. Run `RUN_THIS.py` to init submodules and download the engine.
-3. Compile the solution.
+Большинство ассетов лицензированы под [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. Ассеты имеют свою лицензию и авторские права в файле метаданных. [Пример](https://github.com/space-syndicate/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
+Обратите внимание, что некоторые ассеты лицензированы на некоммерческой основе [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичной некоммерческой лицензией, и их необходимо удалить, если вы хотите использовать этот проект в коммерческих целях.
 
-## License
+## Документация
 
-All code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
+На официальном сайте с [документацией](https://docs.spacestation14.io/) имеется вся необходимая информация о контенте SS14, движке, дизайне игры и многом другом. Также имеется много информации для начинающих разработчиков.
+Также существует [вики для разработчиков](https://serbiastrong-220.github.io/ss220-docs/), созданное [командой разработки SS220](https://discord.gg/D9qwBBy8yx).
 
-Most assets are licensed under [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+## Контрибьют
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+В случае если вы хотите добавить новый контент будет лучше, если сначала вы предложите его в [основной репозиторий](https://github.com/RMC-14/RMC-14) или обсудите его необходимость на нашем сервере [Discord](https://discord.gg/ss220).
+Если вы хотите, чтобы ваш pull request был замёрджен в этот репозиторий, то **обязательно** ознакомьтесь с [наставлением по работе с репозиторием SS220](https://serbiastrong-220.github.io/ss220-docs/development/ss220-guidelines/).
 
-## Partners
+## Сборка
 
-Proxy/VPN detection by [GetIPIntel.net](http://getipintel.net/).
+1. Склонируйте этот репозиторий локально
+2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
+3. Скомпилируйте проект.
+
+[Более подробная инструкция по запуску проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
